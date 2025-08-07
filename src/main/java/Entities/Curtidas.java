@@ -27,7 +27,7 @@ public class Curtidas {
             inverseJoinColumns = @JoinColumn(name = "usuario_id")
     )
     private Set<Usuario> usuarios;
-    
+
     @ManyToMany
     @JoinTable(
             name = "curtidas_postagens",
